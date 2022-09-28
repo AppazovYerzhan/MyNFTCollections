@@ -369,7 +369,7 @@ export default function Home() {
         </div>
       </div>
         <div className={styles.text}>
-          <h1 className={styles.title}>Welcome to Yerzhan's NFT Collections!</h1>
+          <h1 className={styles.title}>Welcome to Yerzhan&apos;s NFT Collections!</h1>
           <div className={styles.description}>
             Its an NFT collection by Yerzhan. But all these artworks are created by talented guy called Yerkebulan :)
           </div>
