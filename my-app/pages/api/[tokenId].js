@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // get the tokenId from the query params
-    const tokenId = req.query.tokenId;
+    const tokenId = req.query.tokenId.match(/\d*/);
     // As all the images are uploaded on github, we can extract the images from github directly.
     const image_url =
       "my-app/public/cryptodevs/";
